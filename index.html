@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
 	<head>
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
       	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
@@ -10,7 +10,7 @@
       <script src="script.js"></script>
 	</head>
 
-	<body>
+	<body ng-controller="mainController">
 		<header>
 			<nav class="navbar navbar-default">
 				<div class="container">
@@ -28,6 +28,7 @@
 		</header>
 			<!-- mainc content and injection veiws -->
 		<div id="main">
+			{{ message }}
 			<!-- where the content will get injected -->
 		</div>
 	</body>
