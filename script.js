@@ -27,11 +27,11 @@ myApp.controller('mainController', function($scope){
 });
 
 myApp.controller('aboutController', function($scope){
-	$scope.message = "About me!!!!";
+	$scope.message = "Animations!!";
 	$scope.pageClass = 'aboutStyle';
 });
 
 myApp.controller('contactController', function($scope){
-	$scope.message = "Contact me?!?!?!?!";
+	$scope.message = "Animations trigger on page entry and exit";
 	$scope.pageClass = 'contactStyle';
 });

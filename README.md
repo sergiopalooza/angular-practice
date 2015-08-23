@@ -1,1 +1,2 @@
-# angular-practice
+# Angular Routing and Animations
+
